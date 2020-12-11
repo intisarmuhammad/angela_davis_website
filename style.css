@@ -1,0 +1,23 @@
+#topImg{
+    margin-top:5%;
+    text-align: center;
+    }
+    
+    #topImgAs{
+      width: 50%;
+      height: auto;
+    }
+    /*education div deck*/
+    #divDeck1{
+      background-image: url("images/education_image.jpg");
+      width: auto;
+      height: 300px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 100%;
+    }
+    /*Essay download pic*/
+    #lecturepic{
+        width: auto;
+        height: 100px;
+    }
