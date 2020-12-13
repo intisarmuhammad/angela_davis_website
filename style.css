@@ -124,6 +124,36 @@ overflow: hidden;
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: 100%;
     }
+
+    /*social justice div deck*/
+    #divDeck2{
+      background-image: url("angelafro.jpg");
+      width: auto;
+      height: 300px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 100%;
+    }
+
+    /*another div deck*/
+    #divDeck3{
+      background-image: url("davis-hero-scaled.jpg");
+      width: auto;
+      height: 300px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 100%;
+     }
+
+    /*another div deck*/
+    #divDeck4{
+      background-image: url("angelablackpower.jpg");
+      width: auto;
+      height: 300px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 100%;
+    }
     /*Essay download pic*/
     #lecturepic{
         width: auto;
