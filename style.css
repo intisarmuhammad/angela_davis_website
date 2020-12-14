@@ -212,6 +212,14 @@ overflow: hidden;
       color: #F27507;
     }
 
+    #bookstores{
+      text-align: center;
+      color: black
+    }
+    #bookstores:hover{
+      text-decoration: underline;
+    }
+
     #navbar{
       background-color: white;
     }
