@@ -24,6 +24,9 @@
     z-index: 1;
   }
 
+  body{
+    background-color: coral;
+  }
 /*icon colors*/
  #entireBody{
    color: black;
@@ -193,7 +196,7 @@ overflow: hidden;
       color:#D9430D;
       font-size:500%;
       text-align: center;
-      margin-top:8%;
+      margin-top:6%;
     }
 
     #mainTitle3{
