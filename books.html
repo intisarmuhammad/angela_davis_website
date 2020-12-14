@@ -32,37 +32,41 @@
     <body>
         <div id = "entireBody">
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-    <button class="w3-bar-item w3-button w3-large"
-    onclick="w3_close()">Close &times;</button>
-    <a href="index.html" class="w3-bar-item w3-button">Home</a>
-    <a href="books.html" class="w3-bar-item w3-button">Education</a>
-    <a href="playlist.html" class="w3-bar-item w3-button">Playlists</a>
-    <a href="socialjustice.html" class="w3-bar-item w3-button">Social Justice Movements</a>
-</div>
-              
-<div id="main">
-              
-  <div id= "navbar">
-    <button id="openNav" class="w3-button w3-xlarge" onclick="w3_open()">&#9776;</button>
-    <div class="w3-container w3-text-black">
-
+ <div class="w3-container">
+        <div class="w3-bar">
+            <div class="w3-dropdown-hover ">
+                <a href = "index.html"><button id= "homeIcon" class="w3-button"><i class="fa fa-home fa-2x"></i></button></a>
+            </div>
+            <div class="w3-dropdown-hover ">
+                <button class="w3-button"><i class="fa fa-book fa-2x"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="books.html" class="w3-bar-item w3-button">BOOKS</a>
+                    <a href="essays.html" class="w3-bar-item w3-button">ESSAYS</a>
+                    <a href="videos.html" class="w3-bar-item w3-button">VIDEOS</a>
+                    <a href="movies.html" class="w3-bar-item w3-button">MOVIES</a>
+                    </div>
+            </div>
+            <div class="w3-dropdown-hover ">
+                <button class="w3-button"><i class="fa fa-music fa-2x"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href = "playlist.html" class = "w3-bar-item w3-button">PLAYLISTS</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover ">
+              <button class="w3-button"><i class="fa fa-users fa-2x"></i></button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href = "socialjustice.html" class = "w3-bar-item w3-button">SOCIAL JUSTICE MOVEMENTS</a>
+                  <a href = "LGBTQ.html" class = "w3-bar-item w3-button">
+                    <span style= 'color: red'>L</span>
+                    <span style= 'color: orange'>G</span>
+                    <span style= 'color: green'>B</span>
+                    <span style= 'color: blue'>T</span>
+                    <span style= 'color: blueviolet'>Q</span>
+                    <span style= 'color: violet'>+</span>
+                  </a>
+              </div>
+          </div>
     </div>
-</div>
-
-<script>
-    function w3_open() {
-      document.getElementById("main").style.marginLeft = "25%";
-      document.getElementById("mySidebar").style.width = "25%";
-      document.getElementById("mySidebar").style.display = "block";
-      document.getElementById("openNav").style.display = 'none';
-    }
-    function w3_close() {
-      document.getElementById("main").style.marginLeft = "0%";
-      document.getElementById("mySidebar").style.display = "none";
-      document.getElementById("openNav").style.display = "inline-block";
-    }
-    </script>
 
 <h1 id="maintitle">ANGELA DAVIS RESOURCES</h1>
 
@@ -78,10 +82,11 @@
     <img id= "autobiographyAs" src = "autobiography.jpg">
     <div id= "linkyBooks"></div>
       <br>
-      <a href="https://www.amazon.com/Angela-Davis-Autobiography-Y/dp/0717806677/ref=sr_1_2?dchild=1&keywords=angela+davis+autobiography&qid=1607902544&sr=8-2" target = "_blank">Angela Davis an Autobiography</a>
+      <a id= linkyBooks href="https://www.amazon.com/Angela-Davis-Autobiography-Y/dp/0717806677/ref=sr_1_2?dchild=1&keywords=angela+davis+autobiography&qid=1607902544&sr=8-2" target = "_blank">Angela Davis an Autobiography</a>
     </div>
   </div>
 
+<br>
 <br>
 <br>
 
@@ -90,6 +95,10 @@
     <img id= "autobiographyAs" src = "womenraceclass.jpg">
     <div id= "linkyBooks"></div>
       <br>
-      <a href="https://www.amazon.com/Women-Race-Class-Angela-Davis/dp/0394713516/ref=sr_1_3?crid=3T0KECENA4Y0O&dchild=1&keywords=angela+davis+women+race+and+class&qid=1607903422&sprefix=angela+davis+women%2Caps%2C150&sr=8-3" target = "_blank">Women, Race & Class</a>
+      <a id=linkyBooks href="https://www.amazon.com/Women-Race-Class-Angela-Davis/dp/0394713516/ref=sr_1_3?crid=3T0KECENA4Y0O&dchild=1&keywords=angela+davis+women+race+and+class&qid=1607903422&sprefix=angela+davis+women%2Caps%2C150&sr=8-3" target = "_blank">Women, Race & Class</a>
     </div>
   </div>
+
+<br>
+<br>
+<br>
