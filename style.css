@@ -215,6 +215,7 @@ overflow: hidden;
     #bookstores{
       text-align: center;
       color: black;
+      font-weight: bold;
       text-decoration: underline;
     }
   #bookstores:hover{
