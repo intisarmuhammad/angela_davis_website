@@ -208,14 +208,16 @@ overflow: hidden;
     }
 
     #mainTitle3{
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       color: #F27507;
     }
 
     #bookstores{
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       color: black;
-      font-weight: bold;
+      font-weight: bolder;
       text-decoration: underline;
     }
   #bookstores:hover{
@@ -231,9 +233,20 @@ overflow: hidden;
     }
 
     #linkyBooks{
+      font-family: 'Poppins', sans-serif;
       color: black;
       text-decoration: underline;
     }
     #linkyBooks:hover{
+      color: #F27507;
+    }
+
+    #autobiographypdf{
+      font-family: 'Poppins', sans-serif;
+      color: black;
+      text-align: center;
+      text-decoration: underline;
+    }
+    #autobiographypdf:hover{
       color: #F27507;
     }
