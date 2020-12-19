@@ -170,6 +170,16 @@ overflow: hidden;
       background-size: 100%;
     }
 
+     /*another div deck*/
+    #divDeck6{
+      background-image: url("images/prideflag.jpg");
+      width: auto;
+      height: 450px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 70%;
+    }
+
     #hotTopics{
       text-align: center;
       color: #BF2178;
@@ -223,6 +233,13 @@ overflow: hidden;
       color: #F27507;
     }
 
+    #mainTitle4{
+      color:red;
+      font-size:350%;
+      text-align: center;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+
     #bookstores{
       font-family: 'Poppins', sans-serif;
       text-align: center;
@@ -271,6 +288,13 @@ overflow: hidden;
       }
 
     #textstuff{
+      font-size: 120%;
+      text-align:center;
+      margin: 2%;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+
+    #textstuff2{
       font-size: 120%;
       text-align:center;
       margin: 2%;
