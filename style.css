@@ -254,9 +254,18 @@ overflow: hidden;
     #linkyLarger{
       font-size: 120%;
       text-align:center;
+      color: #8C0D6A;
       margin: 2%;
       font-family: 'Archivo Narrow', sans-serif;
+      text-decoration: underline;
       }
+
+    #textstuff{
+      font-size: 120%;
+      text-align:center;
+      margin: 2%;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
 
       /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
