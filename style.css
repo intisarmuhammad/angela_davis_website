@@ -309,6 +309,16 @@ overflow: hidden;
       font-family: 'Archivo Narrow', sans-serif;
     }
 
+    #wiki{
+      font-size: 120%;
+      text-align:center;
+      color: #8C0D6A;
+      margin: 2%;
+      padding-left: 33%;
+      text-decoration: underline;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+
     #mainSub2{
       font-size:75%;
       text-align: center;
