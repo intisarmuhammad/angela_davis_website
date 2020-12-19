@@ -234,7 +234,7 @@ overflow: hidden;
     }
 
     #mainTitle4{
-      color:red;
+      color:#F27507;
       font-size:350%;
       text-align: center;
       font-family: 'Archivo Narrow', sans-serif;
@@ -297,6 +297,14 @@ overflow: hidden;
     #textstuff2{
       font-size: 120%;
       text-align:center;
+      margin: 2%;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+
+    #textstuff3{
+      font-size: 120%;
+      text-align:center;
+      color: #8C0D6A;
       margin: 2%;
       font-family: 'Archivo Narrow', sans-serif;
     }
