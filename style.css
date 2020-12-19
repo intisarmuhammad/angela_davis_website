@@ -160,6 +160,16 @@ overflow: hidden;
       background-size: 100%;
     }
 
+      /*another div deck*/
+    #divDeck5{
+      background-image: url("images/bookstore.jpg");
+      width: auto;
+      height: 450px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 100%;
+    }
+
     #hotTopics{
       text-align: center;
       color: #BF2178;
@@ -267,6 +277,11 @@ overflow: hidden;
       font-family: 'Archivo Narrow', sans-serif;
     }
 
+    #mainSub2{
+      font-size:75%;
+      text-align: center;
+      font-family: 'Lora', serif;
+    }
       /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
