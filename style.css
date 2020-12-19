@@ -190,6 +190,16 @@ overflow: hidden;
       background-size: 70%;
     }
 
+       /*another div deck*/
+    #divDeck8{
+      background-image: url("images/angela_glasses.jpeg");
+      width: auto;
+      height: 450px;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: 70%;
+    }
+
     #hotTopics{
       text-align: center;
       color: #BF2178;
